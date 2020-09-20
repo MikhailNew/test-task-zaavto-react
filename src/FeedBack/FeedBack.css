@@ -1,0 +1,85 @@
+button, a, a:hover, button:hover, a:active, button:active, a:focus, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.feedback__wrapper {
+    margin-top: 100px;
+    color: #fff;
+}
+
+.feedback__subtitle {
+    color: #ffc811;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form__input {
+    width: 200px;
+    height: 30px;
+    padding: 10px 15px;
+    background: rgba(255, 231, 122, 0.11);
+    border: none;
+    border-radius: 5px 5px 50px 5px;
+    border-bottom: 4px solid #ffc811;
+    border-right: 4px solid #ffc811;
+    transition: all 0.4s;
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form__input:focus {
+    border-radius: 5px;
+    background:rgba(255, 231, 122, 0.342);
+}
+
+.textarea {
+    width: 270px;
+    height: 150px;
+}
+
+.form__sbmt {
+    text-transform: uppercase;
+    border: 1px solid #ffc811;
+    padding: 5px 10px;
+    color: #ffc811;
+    background: #000000;
+    transition: all .3s;
+    font-size: 22px;
+    outline: none;
+}
+
+.form__sbmt:hover {
+    color: #000000;
+    background: #ffc811;
+}
+
+.modal {
+    padding: 20px 30px;
+    background: #ffc811;
+}
+
+.modal__btn {
+    margin-top: 40px;
+}
+
+.modal__btn a {
+    padding: 7px 11px;
+    border: 1px solid #ffc811;
+    background: #000000;
+    color: #ffc811;
+}
+
