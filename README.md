@@ -27,7 +27,7 @@ new Promise((resolve) => { setTimeout(resolve, 1000) })
 
 
 - Download repository files
-- "npm run install" in console to install dependencies
+- "npm install" in console to install dependencies
 - "npm run start" in console to start local server
 - Wait for the project to open in the browser
 - Use
